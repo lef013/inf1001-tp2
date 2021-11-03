@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,800;1,500 &display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+p,
+blockquote {
+  font-size: 0.9em;
+  line-height: 1.6em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 130px;
+}
+
+.menu {
+  width: 25px;
+  margin-top: 45%;
+}
+
+.server {
+  width: 70%;
+  margin: 2em auto 2em 25%;
+}
+
+.subhead {
+  font-size: 1.1em;
+}
+
+.container {
+  text-align: center;
+  padding: 0.8em 1.2em;
+}
+
+.blue-container {
+  background-color: #00c2ff;
+  width: 100%;
+  margin-top: 15%;
+  padding: 4em 0 2em; /* top -> Gauche et Droit -> Bottom */
+  color: #fff;
+  transform: skewY(-2deg);
+  border-top-left-radius: 40px;
+}
+
+.blue-container:before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background-color: #00c2fd;
+  position: absolute;
+  top: -39px;
+  right: 0;
+}
+
+.blue-container:after {
+  content: '';
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  position: absolute;
+  top: -80px;
+  border-radius: 50%;
+  right: 0;
+}
+
+.blue-container ul {
+  transform: skewY(2deg);
+}
+
+.blue-container ul li {
+  margin-bottom: 3em;
+}
+
+.blue-container ul li p {
+  padding: 0 1.5em;
+  line-height: 1.8em;
+}
+
+.blue-container img {
+  width: 14%;
+}
+
+.green-container {
+  background: #c9efef;
+  padding: 4em 0 2em;
+  margin-top: -2%;
+}
+
+.green-container ul li:first-child {
+  margin-bottom: 4em;
+}
+
+.footer-container {
+  background-color: #3b3e3f;
+
+  margin-top: 10%;
+
+  padding: 4em 0 2em;
+
+  transform: skewY(2deg);
+  border-top-right-radius: 40px;
+}
+
+.footer-container:before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background-color: #3b3e3f;
+  position: absolute;
+  top: -39px;
+}
+
+.footer-container:after {
+  content: '';
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  position: absolute;
+  top: -80px;
+  border-radius: 50%;
+}
+
+.container-reverse {
+  text-align: center;
+  transform: skewY(-2deg);
+}
+
+.container-reverse ul li {
+    display: inline;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  font-weight: bold;
+  color: #00c2fd;
+}
+
+h2 {
+  margin-top: 7%;
+  font-weight: bold;
+}
+
+.cta {
+  background: #00cc80;
+  width: calc(100%-1em);
+  display: block;
+  color: white;
+  margin: 3% auto 7%;
+  text-decoration: none;
+  padding: 0.5em;
+  border-radius: 20px;
+  font-size: 1.2em;
+  font-weight: 600;
+  position: relative;
+}
