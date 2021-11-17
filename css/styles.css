@@ -105,11 +105,8 @@ header {
 
 .footer-container {
   background-color: #3b3e3f;
-
   margin-top: 10%;
-
   padding: 4em 0 2em;
-
   transform: skewY(2deg);
   border-top-right-radius: 40px;
 }
@@ -133,13 +130,32 @@ header {
   border-radius: 50%;
 }
 
-.container-reverse {
+.footer-reverse {
   text-align: center;
   transform: skewY(-2deg);
 }
 
-.container-reverse ul li {
-    display: inline;
+.footer-reverse ul li {
+  display: inline;
+}
+
+.footer-flat-grey {
+  background: #3b3e3f;
+  padding: 2em 0 1em;
+  margin-top: -2%;
+}
+
+.logo-w3css {
+  float: right;
+  padding-right: 5%;
+}
+
+.logo-uqtr {
+  padding-left: 20%;
+}
+
+.logo-uqrt-p {
+  padding-left: 15%;
 }
 
 figure {
